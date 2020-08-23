@@ -4,56 +4,56 @@
  /************************************************/
 /*Coloca a continuación tu solución*/
 
-#lote1 {
-    background: #ffefe4;
-}
- #lote2 {
-    background: #7cafb2;
+ #lote1{
+     background-color: #ffefe4;
  }
- #lote3 {
-    background: #e4fdff;
+ #lote2{
+     background-color: #7cafb2;
  }
- h1 {
+ #lote3{
+     background-color: #e4fdff;
+ }
+ h1{
      color: #b29d8e;
      text-align: center;
-     text-shadow: 2px 2px #b86627;
+     text-shadow: 2px 2px #565BBF;
  }
- p {
+ p{
      text-transform: uppercase;
  }
-.hombre {
-    color: #0000ff;
-}
-.mujer{
-    color: #ff66ff;
-}
-.familia {
-    text-decoration: underline;
-}
-.menor {
-    text-transform: capitalize;
-}
-#casa2 .familia {
-    text-align: right;
-}
- #casa2 .visita {
-    font-weight: bold;
+ .hombre{
+     color: #0000ff;
  }
- #casa2>p {
+ .mujer{
+     color: #ff66ff;
+ }
+ .familia{
+     text-decoration: underline;
+ }
+ .menor{
+     text-transform: capitalize;
+ }
+ #casa2 .familia{
+     text-align: right;
+ }
+ #casa2 .familia .visita{
+     font-weight: bold;
+ }
+ #casa2 > p{
      font-style: italic;
  }
- #casa1 .visita .hombre {
+ #casa1 .visita .hombre{
      font-size: 22px;
  }
- #casa3 .familia .mujer {
+ #casa3 .familia .mujer{
      letter-spacing: 10px;
  }
-#casa2 .visita p:last-child{
-    cursor: pointer;
-}
-#casa3 .familia p:first-child {
-    transform: rotate(5deg);
-}
+ #casa2 .visita p:last-child{
+     cursor: pointer;
+ }
+ #casa3 .familia p:first-child{
+     transform: rotate(5deg);
+ }
 
  /************************************************/
  /************************************************/
