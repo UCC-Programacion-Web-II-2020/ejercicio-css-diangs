@@ -21,10 +21,10 @@
  p {
      text-transform: uppercase;
  }
-.hombre, .hombre-menor {
+.hombre {
     color: #0000ff;
 }
-.mujer, .mujer-menor{
+.mujer{
     color: #ff66ff;
 }
 .familia {
