@@ -1,3 +1,47 @@
+* {
+	font-family: 'Roboto', sans-serif;
+}
+#content h1 {
+	text-align: center;
+	color: #8B8FD9;
+}
+#content h2 {
+	color: #8B8FD9;
+}
+#content table {
+	margin: auto;
+	border: 1px #037F8C solid;
+}
+#content table thead {
+	background: #565BBF;
+	border: 1px #8B8FD9 solid;
+}
+table td, table tr {
+	border: 1px #8B8FD9 solid;
+}
+legend {
+	color: #8B8FD9;
+	font-size: 25px;
+	font-weight: bold;
+}
+fieldset {
+	color: #565BBF;
+}
+fieldset a {
+	color: #037F8C;
+}
+#footer a {
+	color: #037F8C;
+}
+button {
+	background: #565BBF;
+	padding: 10px ;
+	border-radius: 7px;
+	width: 100px;
+}
+
+
+
 /*quitar los border a la imágenes cuanto son hipervínculos*/
 img{ border:0; }
 
@@ -26,18 +70,21 @@ h2{	font-size: 1.5em; }
 /*Color en degradado creado en http://www.colorzilla.com/gradient-editor/ */
 	padding: 20px;
 	height:60px;
+	background: #5B48D9;
 }
 
 #header h1 { 
 	margin: 0;
-	font-weight:300;	  
+	font-weight:300;
+	color: #8B8FD9;
 }
 /*********************************/
 /*Menú*/
 #navigation {
 	float: left;
 	width: 100%;
-	border:1px solid #000
+	border:1px solid #5B48D9;
+	background: #5B48D9;
 }
 
 #navigation ul {	
@@ -52,10 +99,11 @@ h2{	font-size: 1.5em; }
 	display: block;
 	float: left;
 	padding: 5px 10px;
-	text-decoration: none;	
+	text-decoration: none;
+	color: #8B8FD9;
 }
 
-#navigation li a:hover { background:#FF0000; }
+#navigation li a:hover { background:#565BBF; }
 /*********************************/
 /*Contenido*/
 #content {

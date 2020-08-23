@@ -4,10 +4,56 @@
  /************************************************/
 /*Coloca a continuación tu solución*/
 
-
-
-
-
+#lote1 {
+    background: #ffefe4;
+}
+ #lote2 {
+    background: #7cafb2;
+ }
+ #lote3 {
+    background: #e4fdff;
+ }
+ h1 {
+     color: #b29d8e;
+     text-align: center;
+     text-shadow: 2px 2px #b86627;
+ }
+ p {
+     text-transform: uppercase;
+ }
+.hombre, .hombre-menor {
+    color: #0000ff;
+}
+.mujer, .mujer-menor{
+    color: #ff66ff;
+}
+.familia {
+    text-decoration: underline;
+}
+.menor {
+    text-transform: capitalize;
+}
+#casa2 .familia {
+    text-align: right;
+}
+ #casa2 .visita {
+    font-weight: bold;
+ }
+ #casa2>p {
+     font-style: italic;
+ }
+ #casa1 .visita .hombre {
+     font-size: 22px;
+ }
+ #casa3 .familia .mujer {
+     letter-spacing: 10px;
+ }
+#casa2 .visita p:last-child{
+    cursor: pointer;
+}
+#casa3 .familia p:first-child {
+    transform: rotate(5deg);
+}
 
  /************************************************/
  /************************************************/
